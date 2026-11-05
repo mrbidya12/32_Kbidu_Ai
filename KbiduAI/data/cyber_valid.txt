@@ -1,0 +1,19 @@
+The OWASP Top 10 includes Injection, Broken Authentication, Sensitive Data Exposure, and other critical security risks.
+
+Defense in depth is a security strategy that layers multiple defensive mechanisms to protect systems and data, so if one layer fails, others still provide protection.
+
+Public Key Infrastructure (PKI) is a system that creates, manages, distributes, and revokes digital certificates.
+
+A certificate authority (CA) is a trusted entity that issues digital certificates used to verify the identity of individuals or organizations.
+
+Digital signatures provide authentication, integrity, and non-repudiation for digital documents and transactions.
+
+Hashing algorithms like SHA-256 are used to verify data integrity by producing a unique fixed-size hash for any given input.
+
+Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are cryptographic protocols that provide secure communication over a computer network.
+
+The principle of least privilege ensures that users only have the access rights necessary to perform their job functions.
+
+Identity and Access Management (IAM) is the framework of policies and technologies that ensure the right individuals access the right resources at the right times for the right reasons.
+
+Privileged Access Management (PAM) focuses on securing, controlling, and monitoring access to privileged accounts.

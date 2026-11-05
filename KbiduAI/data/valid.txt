@@ -1,0 +1,29 @@
+What is a DDoS attack?
+
+A DDoS attack is a malicious attempt to disrupt normal traffic of a targeted server.
+
+Write a Python decorator that measures execution time.
+
+Encryption is the process of converting plaintext into ciphertext.
+
+What is the OWASP Top 10?
+
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+What is a man-in-the-middle attack?
+
+Secure coding practices help prevent vulnerabilities in software.
+
+Explain the concept of least privilege.
+
+Hash functions are used to verify data integrity.
+
+What is a vulnerability scanner?
+
+Firewalls can be hardware-based or software-based.

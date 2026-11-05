@@ -1,0 +1,276 @@
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def greet(self):
+        return f"Hello, my name is {self.name}"
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+import pandas as pd
+df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+print(df.mean())
+
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
+
+class Stack:
+    def __init__(self):
+        self.items = []
+    def push(self, item):
+        self.items.append(item)
+    def pop(self):
+        return self.items.pop() if self.items else None
+    def peek(self):
+        return self.items[-1] if self.items else None
+
+import requests
+response = requests.get("https://api.github.com")
+data = response.json()
+
+def read_file(filepath):
+    with open(filepath, 'r') as f:
+        return f.read()
+
+def write_file(filepath, content):
+    with open(filepath, 'w') as f:
+        f.write(content)
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+            return
+        current = self.head
+        while current.next:
+            current = current.next
+        current.next = new_node
+
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr.mean())
+
+def binary_search(arr, target):
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+import re
+pattern = re.compile(r'\d+')
+matches = pattern.findall("There are 123 apples and 456 oranges")
+
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+def decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before function call")
+        result = func(*args, **kwargs)
+        print("After function call")
+        return result
+    return wrapper
+
+@decorator
+def hello():
+    print("Hello, World!")
+
+import json
+data = {"name": "Alice", "age": 30}
+json_str = json.dumps(data)
+parsed = json.loads(json_str)
+
+def count_words(text):
+    words = text.split()
+    return len(words)
+
+class Queue:
+    def __init__(self):
+        self.items = []
+    def enqueue(self, item):
+        self.items.append(item)
+    def dequeue(self):
+        return self.items.pop(0) if self.items else None
+
+def reverse_string(s):
+    return s[::-1]
+
+def is_palindrome(s):
+    return s == s[::-1]
+
+import sys
+print(sys.version)
+
+def map_function(func, arr):
+    return [func(x) for x in arr]
+
+def filter_function(func, arr):
+    return [x for x in arr if func(x)]
+
+def reduce_function(func, arr):
+    result = arr[0]
+    for x in arr[1:]:
+        result = func(result, x)
+    return result
+
+import os
+files = os.listdir(".")
+
+def power(base, exp):
+    return base ** exp
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm(a, b):
+    return a * b // gcd(a, b)
+
+def is_even(n):
+    return n % 2 == 0
+
+def is_odd(n):
+    return n % 2 != 0
+
+def sum_of_squares(arr):
+    return sum(x**2 for x in arr)
+
+def average(arr):
+    return sum(arr) / len(arr) if arr else 0
+
+def median(arr):
+    sorted_arr = sorted(arr)
+    n = len(sorted_arr)
+    if n % 2 == 0:
+        return (sorted_arr[n//2 - 1] + sorted_arr[n//2]) / 2
+    return sorted_arr[n//2]
+
+def mode(arr):
+    from collections import Counter
+    counter = Counter(arr)
+    return max(counter, key=counter.get)
+
+def std_dev(arr):
+    mean = average(arr)
+    variance = sum((x - mean) ** 2 for x in arr) / len(arr)
+    return variance ** 0.5
+
+import math
+print(math.pi)
+print(math.e)
+
+def sqrt(n):
+    return n ** 0.5
+
+def log(n):
+    import math
+    return math.log(n)
+
+def exp(n):
+    import math
+    return math.exp(n)
+
+import datetime
+now = datetime.datetime.now()
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
+
+def get_date():
+    import datetime
+    return datetime.date.today()
+
+def get_time():
+    import datetime
+    return datetime.datetime.now().time()
+
+class BankAccount:
+    def __init__(self, balance=0):
+        self.balance = balance
+    def deposit(self, amount):
+        self.balance += amount
+    def withdraw(self, amount):
+        if amount > self.balance:
+            raise ValueError("Insufficient funds")
+        self.balance -= amount
+    def get_balance(self):
+        return self.balance
+
+class SavingsAccount(BankAccount):
+    def __init__(self, balance=0, interest_rate=0.01):
+        super().__init__(balance)
+        self.interest_rate = interest_rate
+    def add_interest(self):
+        self.balance *= (1 + self.interest_rate)
+
+import random
+print(random.randint(1, 100))
+print(random.choice(["apple", "banana", "cherry"]))
+
+def shuffle_list(arr):
+    import random
+    random.shuffle(arr)
+    return arr
+
+def sample_list(arr, k):
+    import random
+    return random.sample(arr, k)
+
+def random_choice(arr):
+    import random
+    return random.choice(arr)

@@ -1,0 +1,10 @@
+﻿KbiduAI/.cache/
+KbiduAI/kbidu_env/
+KbiduAI/venv/
+KbiduAI/__pycache__/
+KbiduAI/llamaboard_cache/
+*.pyc
+.env
+KbiduAI/data_folder/CyberSec-Dataset_escaped.jsonl
+KbiduAI/data_folder/.cache/
+.vscode/

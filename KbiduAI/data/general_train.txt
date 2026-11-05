@@ -1,0 +1,65 @@
+Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.
+
+Deep learning is a type of machine learning that uses neural networks with many layers to analyze various factors of data.
+
+Natural language processing (NLP) is a branch of artificial intelligence that gives computers the ability to understand text and spoken words in much the same way human beings can.
+
+Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world.
+
+The Internet of Things (IoT) refers to the network of physical objects embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.
+
+Blockchain technology is a decentralized, distributed ledger that records the provenance of a digital asset.
+
+Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
+
+Quantum computing is a type of computation that harnesses the collective properties of quantum states, such as superposition, interference, and entanglement, to perform calculations.
+
+Big data refers to extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations.
+
+Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.
+
+Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in an environment to maximize the cumulative reward.
+
+Generative AI refers to artificial intelligence systems that can generate new content such as text, images, audio, and video.
+
+Neural networks are computing systems inspired by the biological neural networks that constitute animal brains.
+
+Large Language Models (LLMs) are a type of artificial intelligence model that uses deep learning techniques and massive data sets to understand, summarize, generate, and predict new content.
+
+Transformer architecture is a neural network architecture that uses self-attention mechanisms to process sequential data, and is the foundation of modern LLMs.
+
+The attention mechanism in deep learning allows models to focus on relevant parts of the input when generating output, significantly improving performance on tasks like translation and summarization.
+
+Transfer learning is a machine learning technique where a model trained on one task is reused as the starting point for a model on a second task.
+
+Fine-tuning is the process of taking a pre-trained model and training it further on a new dataset to adapt it to a specific task.
+
+Overfitting occurs when a machine learning model learns the training data too well, including its noise and outliers, resulting in poor performance on new data.
+
+Regularization is a technique used to prevent overfitting by adding a penalty term to the loss function to discourage complex models.
+
+Gradient descent is an optimization algorithm used to minimize the loss function by iteratively moving in the direction of steepest descent.
+
+Backpropagation is an algorithm used to train neural networks by calculating gradients of the loss function with respect to the weights.
+
+The learning rate is a hyperparameter that controls how much to change the model weights in response to the estimated error each time the model weights are updated.
+
+Batch size is the number of training examples utilized in one iteration of model training.
+
+Epoch refers to one complete pass through the entire training dataset during model training.
+
+Activation functions such as ReLU, sigmoid, and tanh introduce non-linearity into neural networks, enabling them to learn complex patterns.
+
+Dropout is a regularization technique where randomly selected neurons are ignored during training to prevent overfitting.
+
+Convolutional Neural Networks (CNNs) are a class of deep neural networks commonly applied to analyzing visual imagery.
+
+Recurrent Neural Networks (RNNs) are a class of neural networks that are designed to handle sequential data, such as time series or natural language.
+
+Attention mechanisms in neural networks allow the model to weigh the importance of different input elements, improving performance on tasks like machine translation and text summarization.
+
+Word embeddings are dense vector representations of words that capture semantic meaning, allowing models to understand word relationships.
+
+Tokenization is the process of breaking down text into smaller units called tokens, which are the fundamental building blocks for language models.

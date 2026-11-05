@@ -1,0 +1,56 @@
+def hello_world():
+    print("Hello, World!")
+
+SQL injection is a code injection technique used to attack data-driven applications.
+
+Explain the concept of a buffer overflow vulnerability.
+
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+CVE-2024-1234 is a critical vulnerability in the Linux kernel.
+
+Write a Python function to check if a number is prime.
+
+Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.
+
+What is a zero-day vulnerability?
+
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+Ransomware is a type of malicious software that threatens to publish the victim's data.
+
+How does public-key cryptography work?
+
+import requests
+response = requests.get("https://api.example.com/data")
+
+A firewall is a network security device that monitors and filters incoming and outgoing network traffic.
+
+Explain the difference between symmetric and asymmetric encryption.
+
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+
+What is phishing?
+
+Malware analysis is the process of understanding the behavior and purpose of a suspicious file or URL.
+
+Use the os module to list all files in a directory.
+
+Cross-site scripting (XSS) is a security vulnerability that allows attackers to inject malicious scripts into web pages.
+
+Explain the concept of defense in depth.

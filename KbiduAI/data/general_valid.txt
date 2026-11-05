@@ -1,0 +1,35 @@
+Supervised learning is a type of machine learning where models are trained on labeled data, learning to map inputs to outputs.
+
+Unsupervised learning is a type of machine learning that uses unlabeled data to discover hidden patterns or data groupings.
+
+Semi-supervised learning uses both labeled and unlabeled data to train machine learning models, combining the strengths of supervised and unsupervised learning.
+
+Reinforcement learning involves training agents to make sequences of decisions by rewarding desirable behaviors and punishing undesirable ones.
+
+Natural language understanding (NLU) is a subset of NLP that focuses on machine comprehension of human language, enabling systems to grasp meaning, intent, and context.
+
+Natural language generation (NLG) is a subset of NLP that focuses on generating natural language text or speech from structured data.
+
+Sentiment analysis uses NLP to identify and extract subjective information from source materials, determining the emotional tone behind words.
+
+Machine translation is the task of automatically translating text from one language to another using computational methods.
+
+Text summarization is the process of creating a concise and coherent summary of a longer text document.
+
+Information retrieval is the process of obtaining relevant information from a collection of resources based on a user's query.
+
+Question answering systems automatically answer questions posed by humans in natural language.
+
+Named Entity Recognition (NER) is a subtask of NLP that locates and classifies named entities in text into predefined categories such as person names, organizations, locations, and more.
+
+Coreference resolution is the task of finding all expressions that refer to the same entity in a text.
+
+Dependency parsing is the process of analyzing the grammatical structure of a sentence to establish relationships between words.
+
+Part-of-speech tagging is the process of assigning a part-of-speech label (noun, verb, adjective, etc.) to each word in a text.
+
+Semantic similarity measures how similar two pieces of text are in terms of their meaning, which is crucial for many NLP applications.
+
+Text classification is the task of assigning predefined categories to text documents.
+
+Topic modeling is a technique for discovering abstract topics in a collection of documents.
